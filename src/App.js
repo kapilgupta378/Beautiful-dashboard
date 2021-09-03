@@ -16,11 +16,11 @@ function App() {
     <Topbar />
      <div className="container">
        <Sidebar />
-       {/* <Switch>
+       <Switch>
          <Route exact path="/">
            <Home />
          </Route>
-         <Route path="/users">
+         {/* <Route path="/users">
            <UserList />
          </Route>
          <Route path="/user/:userId">
@@ -37,8 +37,8 @@ function App() {
          </Route>
          <Route path="/newproduct">
            <NewProduct />
-         </Route>
-       </Switch> */}
+         </Route> */}
+       </Switch>
      </div>
    </Router>
   );
